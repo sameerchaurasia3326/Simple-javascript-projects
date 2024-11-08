@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #e9e9e9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas:
+        "mc mr mminus mplus"
+        "ac sqrt percent divide"
+        "seven eight nine multiply"
+        "four five six subtract"
+        "one two three add"
+        "zero decimal toggle equal"
+        "pi power r2 r0";
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Color styles for each button type */
+.mc, .mr, .mminus, .mplus {
+    grid-area: mc / mr / mminus / mplus;
+}
+
+.ac {
+    grid-area: ac;
+    background-color: #ff6b6b;
+}
+
+.sqrt {
+    grid-area: sqrt;
+}
+
+.percent {
+    grid-area: percent;
+}
+
+.divide {
+    grid-area: divide;
+    background-color: #ffbb33;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.multiply {
+    grid-area: multiply;
+    background-color: #ffbb33;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.subtract {
+    grid-area: subtract;
+    background-color: #ffbb33;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.add {
+    grid-area: add;
+    background-color: #ffbb33;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.decimal {
+    grid-area: decimal;
+}
+
+.toggle {
+    grid-area: toggle;
+}
+
+.equal {
+    grid-area: equal;
+    background-color: #ff9933;
+}
+
+.pi {
+    grid-area: pi;
+}
+
+.power {
+    grid-area: power;
+}
+
+.r2 {
+    grid-area: r2;
+}
+
+.r0 {
+    grid-area: r0;
+}
