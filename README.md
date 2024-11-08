@@ -66,7 +66,7 @@ Provides a summary of total income and expenses.
 User-friendly UI for adding and removing expense items.
 🛠️ Technologies
 HTML, CSS, JavaScript
-![Expanse-tracker Screenshot](./expanse-track/%20expanse-track.png)
+![Expanse-tracker Screenshot](./expanse-track/expanse-track.png)
 
 
 🚀 How to Run
