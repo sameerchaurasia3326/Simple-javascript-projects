@@ -15,7 +15,7 @@ Provides weather updates based on the user's location or a searched city.
 🛠️ Technologies
 HTML, CSS, JavaScript
 OpenWeather API
-![Weather App Screenshot](![alt text](image.png))
+![Weather App Screenshot](./weather/image.png)
 
 
 🚀 How to Run
